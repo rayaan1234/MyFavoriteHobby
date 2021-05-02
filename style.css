@@ -1,0 +1,78 @@
+body
+{
+    text-align: center;
+    background: linear-gradient(to bottom right, lightblue, yellow);
+	background-repeat:no-repeat;
+}
+
+img
+{
+  margin-top:50px;
+  border-radius:50%;
+  width:300px;
+}
+
+
+h1{
+  text-shadow:2px 2px white;
+  font-size:40px;
+  font-variant: small-caps;
+}
+
+#name {
+    font-size: 70px;
+    line-height: 1.2;
+    font-family: 'Brush Script MT', cursive;
+}
+
+h2{
+  font-size:20px;
+  color:#1A237E;
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+
+#bio{
+    padding:20px;
+    font-size:18;
+    text-align:center;
+}   
+
+p{
+    max-width: 560px;
+    margin: 25px auto;
+    padding-top: 50px;
+    font-size:30px;
+    font-weight:400;
+    color:darkcyan;
+    text-align: justify;
+    text-justify: inter-character;
+  }
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    top: 10px;
+    right: 30px;
+    position: absolute;
+    z-index:10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: aqua;
+    padding-top:5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    
+}
+.links:hover{
+    background-color: lightcyan;
+}
