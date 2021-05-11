@@ -5,13 +5,11 @@ body
 	background-repeat:no-repeat;
 }
 
-img
-{
-  margin-top:50px;
+#icon img {
+  margin-top:70px;
   border-radius:50%;
   width:300px;
 }
-
 
 h1{
   text-shadow:2px 2px white;
@@ -86,3 +84,8 @@ html {
 #manager{
      text-align:center;
 }
+#inspiration img{
+    width:240px;
+    height:300px;
+  border-radius: 50%;  
+    }
